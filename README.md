@@ -5,7 +5,7 @@ A semi-handy way of typing IPA characters anywhere.
 This AutoHotkey script was created to make typing IPA symbols a lot easier. Whilst not the most fst solution, it provides the necessary functionality, whilst requiring very little habituation, as it follows the usual order.
 
 The current system works the like this: <br>
-[voicing] [place of articulation] [manner of articulation]
+_[voicing] [place of articulation] [manner of articulation]
 
 
 ## Using non-spacing diacritics
