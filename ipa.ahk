@@ -3,12 +3,6 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-; this script contains shortcuts for most ipa symbols
-; these are generated using this converter:
-; "C:\Users\linus\Desktop\conlang\autohotkey ipa"
-
-; use /[a-z]:{1}(?!:)/gi to search for missing colons at end
-
 #ifWinActive
 
 ; ========================= Alphabetic (excluding the standard characters a-z) =========================
@@ -418,159 +412,131 @@ return
 
 ; ========================= Non-spacing diacritics and suprasegmentals =========================
 ; diacritics(both spacing and non-spacing) get double underscores(__)
-; it is worth trying the non-spacing diacritics both before and after the affected symbols for optimal results
-; some fonts work better than other with non-spacing diacritics
+; unless otherwise stated, the diacritic should be entered after the main symbol (without a spase inbetween)
+
+; it's worth trying the non-spacing diacritics both before and after the main symbols for optimal results
+; some fonts work better than other with non-spacing diacritics, especially monospaced fonts
 
 :?*:__voiceless::
 send {U+0325}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__voiceless ::
 send {U+030A}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__breathy voiced::
 send {U+0324}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__dental::
 send {U+032A}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__voiced::
 send {U+032C}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__creaky voiced::
 send {U+0330}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__apical::
 send {U+033A}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__linguolabial::
 send {U+033C}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__laminal::
 send {U+033B}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__not audibly released::
 send {U+031A}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__more rounded::
 send {U+0339}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__nasalized::
 send {U+0303}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__less rounded::
 send {U+031C}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__advanced::
 send {U+031F}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__retracted::
 send {U+0320}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__centralized::
 send {U+0308}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__velarized or pharyngealized::
 send {U+0334}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__(ready made combination, dark l)::
 send {U+026B}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__mid centralized::
 send {U+033D}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__raised::
 send {U+031D}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__syllabic::
 send {U+0329}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__lowered::
 send {U+031E}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__non syllabic::
 send {U+032F}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__advanced tongue root::
 send {U+0318}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__retracted tongue root::
 send {U+0319}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__extra short::
 send {U+0306}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__extra high tone::
 send {U+030B}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__high tone::
 send {U+0301}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__mid tone::
 send {U+0304}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__low tone::
 send {U+0300}
 return
 
-;enter after symbol (without spase inbetween)
 :?*:__extra low tone::
 send {U+030F}
 return
