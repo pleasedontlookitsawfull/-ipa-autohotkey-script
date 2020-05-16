@@ -2,14 +2,14 @@
 A semi-handy way of typing IPA characters anywhere.
 
 ## Introduction
-This AutoHotkey script was created to make typing IPA symbols a lot easier. Whilst not the most fst solution, it provides the necessary functionality, whilst requiring very little habituation, as it follows the usual order.
+This AutoHotkey script was created to make typing IPA symbols a lot easier. Whilst not the most fast solution, it provides the necessary functionality, whilst requiring very little habituation, as it follows the usual way of describing phonetics.
 
 The current system works the like this: <br>
 _[voicing] [place of articulation] [manner of articulation]
 
 
 ## Using non-spacing diacritics
-Diactritics are proceded by two underscores(__) insted of one.
+Diacritics are proceeded by two underscores(__) instead of one.
 
 When typing non-spacing diacritics the order in which the symbols are entered matters. This is not an issue with monospaced fonts, such as this one.
 
